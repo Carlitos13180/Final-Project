@@ -10,8 +10,8 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(135deg, #1e003e, #3d004f);
-  color: #ffffff;
+  background: #f2f7f9;
+  color: #1d1d1d;
   padding: 40px 20px;
 }
 
@@ -30,7 +30,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #a4ff00;
+  color: #007d8c;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -44,15 +44,14 @@ main {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(6px);
+  background-color: #ffffff;
   padding: 25px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-  color: #a4ff00;
+  color: #007d8c;
   margin-bottom: 20px;
 }
 
@@ -63,18 +62,18 @@ h1, h2 {
 }
 
 .project-card {
-  background-color: rgba(255, 255, 255, 0.07);
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  transform: scale(1);
+  transform: perspective(1000px) scale(1) rotateX(0deg) rotateY(0deg);
 }
 
 .project-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  transform: perspective(1000px) scale(1.05) rotateX(-1deg) rotateY(1deg);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 .project-card img {
@@ -86,7 +85,7 @@ h1, h2 {
 footer {
   text-align: center;
   margin-top: 60px;
-  color: #aaa;
+  color: #777;
 }
 
 /* Fade-In */
@@ -100,3 +99,4 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
