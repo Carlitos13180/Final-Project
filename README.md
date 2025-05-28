@@ -2,7 +2,9 @@
 
 ## 👋 About Me
 
-Hi, I’m **Carlos B.**, a graduating senior with a passion for both science and technology. I’ll be attending **De Anza College** for two years before transferring to **UC Davis** or **UC Berkeley** to major in **Biology**. While my future plans are focused on the medical and research fields, this year I’ve enjoyed stepping into the world of web development, building creative and interactive projects that challenged me in new ways.
+Hey! I'm Carlos B., a graduating senior headed to De Anza College with plans to transfer to UC Davis or UC Berkeley to study Biology. This year I’ve grown a lot in computer science — from writing basic HTML to creating fully interactive JavaScript projects.
+
+I’ve learned how to design, build, and improve websites using HTML, CSS, and JS. I’ve also gotten better at problem-solving, debugging, and thinking creatively. Everything here represents the skills I’ve developed and the passion I’ve put into my work.
 
 ## 📚 What This Project Is
 
