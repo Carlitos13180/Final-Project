@@ -1,4 +1,4 @@
-// Typing effect
+
 const heroText = document.getElementById('hero-text');
 const fullText = "Welcome to Carlos B.'s Portfolio";
 let i = 0;
@@ -30,4 +30,3 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 fadeElements.forEach(el => observer.observe(el));
-
