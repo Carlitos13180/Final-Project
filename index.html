@@ -9,30 +9,57 @@
 <body>
 
   <header>
-    <h1>Carlos B.</h1>
+    <h1 id="hero-text"></h1>
     <nav>
       <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="about">
-      <h2>About Me</h2>
-      <p>Hi, I’m Carlos B., a graduating senior heading to De Anza College before transferring to UC Davis or UC Berkeley to major in Biology. I’ve enjoyed exploring web development this year and building projects that are both useful and fun.</p>
+      <div class="card fade-in">
+        <h2>About Me</h2>
+        <p>Hi, I’m Carlos B., a graduating senior heading to De Anza College before transferring to UC Davis or UC Berkeley to major in Biology. I’ve enjoyed exploring web development this year and building projects that are both useful and fun.</p>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
-      <p>Check out some of the JavaScript projects I’ve built this year:</p>
-      <ul>
-        <li><a href="https://codepen.io/CarlosSoccer22/pen/zxxGqKY" target="_blank">Budget Buddy</a></li>
-        <li><a href="https://codepen.io/CarlosSoccer22/pen/gbOzjeK" target="_blank">Cookie Clicker</a></li>
-        <li><a href="https://codepen.io/CarlosSoccer22/pen/emYGEbm" target="_blank">Hangman / Wordle</a></li>
-        <li><a href="https://codepen.io/CarlosSoccer22/pen/XJWaQMW" target="_blank">Rock, Paper, Scissors</a></li>
-      </ul>
+      <h2 class="fade-in">Projects</h2>
+      <div class="project-grid">
+        <div class="project-card fade-in">
+          <img src="images/budget-buddy.png" alt="Budget Buddy Screenshot" />
+          <h3><a href="https://codepen.io/CarlosSoccer22/pen/zxxGqKY" target="_blank">Budget Buddy</a></h3>
+          <p>A weekly budgeting tool to plan meals and calculate expenses.</p>
+        </div>
+        <div class="project-card fade-in">
+          <img src="images/cookie-clicker.png" alt="Cookie Clicker Screenshot" />
+          <h3><a href="https://codepen.io/CarlosSoccer22/pen/gbOzjeK" target="_blank">Cookie Clicker</a></h3>
+          <p>A fun incremental game with click-to-earn cookies and upgrades.</p>
+        </div>
+        <div class="project-card fade-in">
+          <img src="images/hangman-wordle.png" alt="Hangman Wordle Screenshot" />
+          <h3><a href="https://codepen.io/CarlosSoccer22/pen/emYGEbm" target="_blank">Hangman / Wordle</a></h3>
+          <p>A combo of Hangman and Wordle with category selection.</p>
+        </div>
+        <div class="project-card fade-in">
+          <img src="images/rock-paper-scissors.png" alt="Rock Paper Scissors Screenshot" />
+          <h3><a href="https://codepen.io/CarlosSoccer22/pen/XJWaQMW" target="_blank">Rock, Paper, Scissors</a></h3>
+          <p>A modern take on the classic game with styled buttons.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="fade-in">Contact</h2>
+      <p><a href="https://github.com/Carlitos13180" target="_blank">GitHub</a> | 
+         <a href="https://codepen.io/CarlosSoccer22" target="_blank">CodePen</a> | 
+         <a href="https://www.instagram.com/carlos._.b13" target="_blank">Instagram</a>
+      </p>
     </section>
   </main>
 
@@ -40,5 +67,6 @@
     <p>© 2025 Carlos B. | All rights reserved.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
